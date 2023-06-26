@@ -1,0 +1,1387 @@
+@font-face {
+    font-family: 'Droid Serif Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Droid Serif Regular'), url('./font/DroidSerif-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Droid Serif Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Droid Serif Italic'), url('./font/DroidSerif-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Droid Serif Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Droid Serif Bold'), url('./font/DroidSerif-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Droid Serif Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Droid Serif Bold Italic'), url('./font/DroidSerif-Bold.woff') format('woff');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Droid Serif bold';
+    transition: 0.5s all;
+}
+
+.container {
+    padding: 0 10px;
+}
+
+.pensilmain {
+    background-color: #b58800;
+}
+
+.pensil a {
+    text-decoration: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.pensil p,
+.fa-brands {
+    color: white;
+    font-size: 16px;
+}
+
+.mainlaws input[type="submit"]:hover {
+    color: #fff;
+}
+
+input {
+    padding: 10px;
+}
+
+.mainlaws .form_submit_border:hover {
+    border-color: white;
+}
+
+.mainlaws .form_submit_border:hover .fa-caret-right {
+    color: #fff;
+}
+
+.form_submit .fa-caret-right {
+    color: #b58800;
+}
+
+.media {
+    display: none;
+}
+
+.call p a {
+    font-size: 15PX;
+    color: white;
+    text-decoration: none;
+}
+
+.call {
+    display: flex;
+    gap: 15px;
+}
+
+
+.pensil {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.mastermain {
+    font-size: 16px;
+    font-family: 'Droid Serif Bold';
+}
+
+.master-dot {
+    color: #b58800;
+    font-size: 25px;
+    line-height: 10px;
+    font-size: 35px;
+}
+
+.master {
+    font-family: 'Droid Serif regular';
+}
+
+.master h6 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.master p {
+    font-size: 12px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img {
+    width: 50px;
+}
+
+
+.options {
+    display: none;
+}
+
+.header {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left img {
+    width: 100%;
+}
+
+.page-conten {
+    background-image: url(./Photo/background-img.png);
+    background-size: 100% 100%;
+}
+
+.right {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 30px;
+}
+
+.appoiment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.appoiment p {
+    color: #b58800;
+    width: fit-content;
+    border-bottom: 2px solid #b58800;
+}
+
+.right h1 {
+    color: #b58800;
+    font-size: 70px;
+}
+
+p.utwisi {
+    font-size: 12px;
+}
+
+.sarvices {
+    color: white;
+}
+
+.client {
+    background-color: #b58800;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.injury,
+.bank {
+    background-color: #c39106;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.cases {
+    background-color: #333333;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.imgclass img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.histo h2 {
+    font-family: 'Droid Serif Regular';
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.mainhistory {
+    font-family: 'Droid Serif Bold';
+}
+
+.since h6 {
+    color: #b58800;
+    font-size: 12px;
+    font-family: 'Droid Serif Regular';
+    text-align: center;
+}
+
+.histo {
+    text-align: center;
+}
+
+.mainhexa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hexaone {
+    display: grid;
+    gap: 5px;
+}
+
+.hexatwo {
+    display: grid;
+    gap: 10px;
+}
+
+.hex-container {
+    width: 100px;
+    padding-top: 50px;
+}
+
+.hexagon:before,
+.hexagon:after {
+    background: inherit;
+    content: '';
+    height: inherit;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    z-index: -1;
+}
+
+.hexagon:before {
+    transform: rotate(-60deg);
+}
+
+.hexagon:after {
+    transform: rotate(60deg);
+}
+
+.hexagon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 45px;
+    background-color: #f6f6f6;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hexagon:hover {
+    background-color: #333333;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    transition: background-color 0.25s;
+}
+
+.hexagon:before,
+.hexagon-inside:before {
+    transform: rotate(120deg);
+}
+
+.hexagon:after,
+.hexagon-inside:after {
+    transform: rotate(60deg);
+}
+
+.mytext h3 {
+    color: #cccccc;
+    font-size: 22px;
+}
+
+.mytext p:hover,
+h3:hover {
+    color: #b58800;
+}
+
+.opening {
+    display: flex;
+    align-items: center;
+    padding: 35px 0 20px 0;
+    gap: 10px;
+}
+
+.since p {
+    font-size: 16px;
+    font-family: 'Droid Serif Regular';
+}
+
+/* 
+.right h1:nth-child(3) {
+    padding: 0 0 25px 90px;
+} */
+
+.caret {
+    display: flex;
+    align-items: center;
+    color: #b58800;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.caret a {
+    text-decoration: none;
+    color: #b58800;
+    font-size: 16px;
+}
+
+.workingcase {
+    background-image: url(./Photo/bankphoto.png);
+    background-size: 100% 100%;
+}
+
+.wecan h1 {
+    color: #ba8e00;
+    font-size: 26px;
+    font-weight: normal;
+    padding-top: 30px;
+}
+
+.wecan p {
+    font-family: 'Droid Serif Regular';
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.court {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 0;
+    gap: 43px;
+}
+
+.court a {
+    color: #b88c00;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.wecan {
+    text-align: center;
+}
+
+.court p {
+    font-family: 'Droid Serif Regular';
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.case-appoinment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.case-appoinment p {
+    color: #b58800;
+    width: fit-content;
+    border-bottom: 2px solid #b58800;
+    font-size: 15px;
+
+}
+
+.appoiment p:hover,
+.caret a:hover {
+    color: black;
+    border-color: black;
+}
+
+.case-appoinment p:hover {
+    color: white;
+    border-color: white;
+}
+
+.wheet-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.priority {
+    background-color: #b58800;
+}
+
+.dismissed {
+    color: white;
+}
+
+.diss-bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dismissed h4 {
+    font-size: 19px;
+    padding-bottom: 12px;
+}
+
+.wheet a {
+    text-decoration: none;
+    color: #b58800;
+    padding: 14px 18px;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.wheet a:hover {
+    background-color: #333333;
+}
+
+li a:hover {
+    color: #ffc504;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
+.wheet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 0
+}
+
+.wheet img {
+    display: flex;
+}
+
+.dismissed p {
+    font-size: 12px;
+    font-family: 'Droid Serif Regular';
+    padding-bottom: 20px;
+}
+
+.consultation {
+    background-image: url(./Photo/bitmap.png);
+    background-size: 100% 100%;
+}
+
+.laws h1 {
+    font-family: 'Droid Serif Regular';
+    color: #b58800;
+    padding: 20px 0;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.free {
+    font-weight: bold;
+}
+
+.information {
+    display: grid;
+}
+
+.laws p {
+    font-family: 'Droid Serif Regular';
+    color: white;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.laws input[type="text"] {
+    height: 39px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #464646;
+    color: white;
+}
+
+input::placeholder {
+    font-family: 'Droid Serif Regular';
+}
+
+select {
+    height: 39px;
+    border: none;
+    background-color: #464646;
+    color: white;
+    padding: 10px;
+}
+
+textarea#text {
+    background-color: #464646;
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding: 7px 0 0 7px;
+    margin-top: 15px;
+    border: none;
+}
+
+.mainlaws input[type="submit"] {
+    font-family: 'Droid Serif Regular';
+    border-bottom: 1px solid #b58800;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    color: #b58800;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form_submit_border {
+    gap: 5px;
+    align-items: center;
+    border-bottom: 2px solid #b58800;
+    display: flex;
+}
+
+.form_submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 0
+}
+
+.first {
+    display: flex !important;
+    opacity: 0.2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first:hover {
+    opacity: 1.0;
+}
+
+.lawfirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.slider .slick-next {
+    right: 25px;
+}
+
+.slick-prev {
+    left: 35px !important;
+    z-index: 1;
+}
+
+.lawfirm .fa-angle-right {
+    right: 0;
+    top: 144px;
+    position: absolute;
+    background-color: #eeeeee;
+    padding: 10px 13px;
+}
+
+.fa-angle-right:hover {
+    background-color: #ba8d00;
+    color: #eeeeee;
+}
+
+.fa-angle-left:hover {
+    background-color: #ba8d00 !important;
+    color: #eeeeee;
+}
+
+.lawfirm .fa-angle-left {
+    right: 35px;
+    left: auto;
+    top: 144px;
+    position: absolute;
+    background-color: #eeeeee;
+    padding: 10px 13px;
+}
+
+.footer {
+    background-color: #2d2d2d;
+}
+
+.footer-logo img {
+    width: 30px;
+}
+
+.instagram a .fa-brands {
+    color: #be9100;
+}
+
+.facebook a .fa-brands {
+    color: #be9100;
+}
+
+.twr a .fa-brands {
+    color: #be9100;
+}
+
+.footer-logo h3 {
+    color: #444444;
+    font-size: 13px;
+}
+
+.socialmedia p {
+    display: none;
+}
+
+.by {
+    color: #666666;
+}
+
+.last40 {
+    color: #be9100;
+}
+
+.facebook a {
+    display: flex;
+    text-decoration: none;
+    gap: 7px;
+}
+
+.twr a {
+    display: flex;
+    text-decoration: none;
+    gap: 7px;
+}
+
+.instagram a {
+    display: flex;
+    text-decoration: none;
+    gap: 7px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
+.mainfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .media {
+        display: flex;
+        gap: 50px;
+    }
+
+    .mobile-menu {
+        display: none !important;
+    }
+
+    p.utwisi {
+        font-size: 17px;
+    }
+
+    .right h5 {
+        font-size: 20px;
+    }
+
+    .face a {
+        display: flex;
+        text-decoration: none;
+    }
+
+    .tweeter a {
+        display: flex;
+    }
+
+    .insta a {
+        display: flex;
+    }
+
+    .pensil {
+        justify-content: space-between;
+    }
+
+    .options {
+        display: block;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    ul li {
+        list-style-type: none;
+        padding-left: 16px;
+    }
+
+    .fabars {
+        display: none;
+    }
+
+    .socialmedia p {
+        color: #626262;
+        display: block;
+    }
+
+    .mainfooter a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        display: flex;
+    }
+
+    .court a {
+        font-size: 25px;
+    }
+
+    .wecan h1 {
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .logo img {
+        width: initial;
+    }
+
+    .leftright {
+        display: flex;
+    }
+
+    .page-conten {
+        background-image: url(./Photo/background-img.png);
+        background-size: 100% 100%;
+    }
+
+    .left {
+        width: 60%;
+        padding-top: 30px;
+    }
+
+    .left img {
+        width: 100%;
+        display: flex;
+    }
+
+    .right {
+        padding: 160px 0 0 0;
+        width: 40%;
+        text-align: left;
+    }
+
+    .right h1 {
+        font-size: 75px;
+    }
+
+    .right h5 {
+
+        font-size: 17px;
+    }
+
+    .right .utwisi {
+        font-family: 'Droid Serif Regular';
+        font-size: 12px;
+        padding-left: 30px;
+    }
+
+    .right h1:nth-child(3) {
+        padding: 0 0 25px 30px;
+    }
+
+    .appoiment {
+        padding: 35px 0 30px 120px;
+        width: fit-content;
+    }
+
+    .appoiment p {
+        line-height: 24px;
+        font-size: 12px;
+    }
+
+    .sarvices {
+        display: flex;
+    }
+
+    .sarvices img {
+        padding-bottom: 10px;
+    }
+
+    .sarvices h1 {
+        font-size: 20px;
+    }
+
+    .second {
+        color: #b68900;
+    }
+
+    .sarvices p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .client {
+        width: 25%;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .injury,
+    .bank {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        padding: 32px 30px;
+        gap: 10px;
+    }
+
+    .cases {
+        width: 25%;
+        display: flexer;
+        flex-direction: column;
+        padding: 32px 30px;
+        gap: 10px;
+    }
+
+    .history {
+        display: flex;
+        padding-top: 40px;
+    }
+
+    .imgclass img {
+        width: 74%;
+    }
+
+    .imgclass {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .since h6 {
+        font-size: 13px;
+    }
+
+    .mytext p {
+        color: #cccccc;
+        font-size: 12px;
+    }
+
+    .mainhexa {
+        display: flex;
+        justify-content: initial;
+    }
+
+    .hexaone {
+        display: flex;
+    }
+
+    .hexatwo {
+        display: flex;
+    }
+
+    .mytext h3 {
+        font-size: 30px;
+    }
+
+    .caret {
+        padding-top: 65px;
+    }
+
+    .since p {
+        font-size: 16px;
+    }
+
+    .opening p {
+
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .help img {
+        width: 100%;
+    }
+
+    .wecan h1 {
+        font-size: 40px;
+    }
+
+    .helpyou {
+        font-weight: bold;
+    }
+
+    .wecan p {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .wecan {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .court {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 55px 0;
+        gap: 43px;
+    }
+
+    .imgclaass,
+    .since {
+        width: 50%;
+    }
+
+    .wheet {
+        flex-direction: inherit;
+        padding: 20px 0
+    }
+
+    .wheet-img {
+        gap: 20px;
+        flex-direction: inherit;
+    }
+
+    .diss-bold {
+        font-size: 30px;
+    }
+
+    .dismissed h4 {
+        font-size: 22px;
+    }
+
+    .dismissed p {
+        padding-bottom: 0;
+    }
+
+    .mainlaws {
+        text-align: center;
+        padding: 55px 0;
+    }
+
+    .laws h1 {
+        padding-bottom: 21px;
+        font-size: 35px;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .laws input[type="text"] {
+        width: 33%;
+    }
+
+    select {
+        width: 33%;
+    }
+
+    textarea#text {
+        margin-top: 0;
+        height: 154px;
+    }
+
+    .form_submit {
+        padding: 78px 0 5px 0;
+    }
+
+    .first img {
+        width: 47%;
+        padding: 0px 14px;
+    }
+
+    .firm {
+        text-align: start;
+    }
+
+    .firm h2,
+    h1 {
+        font-size: 25px;
+
+    }
+
+    .footer-logo img {
+        width: 25%;
+    }
+
+    .lawfirm .fa-angle-right {
+        top: 119px;
+    }
+
+    .lawfirm .fa-angle-left {
+        top: 119px;
+    }
+
+    .mainfooter {
+        flex-direction: inherit;
+    }
+}
+
+
+@media only screen and (min-width: 1366px) {
+    .container {
+        padding: 0;
+    }
+
+    .lawfirm .fa-angle-left {
+        top: 147px;
+    }
+
+    .lawfirm .fa-angle-right {
+        top: 147px;
+    }
+
+    li a {
+        font-size: 16px;
+    }
+
+    .pensil {
+        padding: 10px 0;
+    }
+
+    .lawfirm .fa-angle-right {
+        top: 144px;
+    }
+
+    .lawfirm .fa-angle-left {
+        top: 144px;
+    }
+
+    .master h6 {
+        font-size: 30px;
+    }
+
+    .mastermain {
+        font-size: 30px;
+    }
+
+    .appoiment {
+        padding: 54px 0 100px 120px;
+        width: fit-content;
+    }
+
+    .master-dot {
+        font-size: 50px;
+    }
+
+    .sarvices h1 {
+        font-size: 30px;
+    }
+
+    .court {
+        gap: 70px;
+    }
+
+    .histo h2 {
+        font-size: 50px;
+    }
+
+    .since h6 {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    .hexagon {
+        width: 90px;
+        height: 51px;
+    }
+
+    .opening p {
+        font-size: 20px;
+    }
+
+    .opening img {
+        width: 28px;
+    }
+
+    .hex-container {
+        padding-top: 60px;
+    }
+
+    .imgclaass,
+    .since {
+        padding-top: 20px;
+    }
+
+    .wecan p {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .wecan {
+        padding-top: 125px;
+    }
+
+    .wecan h1 {
+        font-size: 50px;
+    }
+
+    .dismissed p {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    .court {
+        padding: 100px 0;
+    }
+
+    .case-appoinment a {
+        padding-bottom: 120px;
+    }
+
+    .wheet {
+        padding: 47px 0;
+    }
+
+    .dismissed h4 {
+        font-size: 29px;
+    }
+
+    .wheet a {
+        padding: 14px 45px;
+        font-size: 15px;
+    }
+
+    .court a {
+        font-size: 20px;
+    }
+
+    select {
+        padding: 11px 167px 11px 5px;
+    }
+
+    .laws input[type="text"],
+    input[type="number"] {
+        padding: 11px 100px 11px 10px;
+
+    }
+
+    .mainfooter a {
+        font-size: 21px;
+    }
+
+    .mainlaws p {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .appoiment p {
+        font-size: 15px;
+    }
+
+    .court p {
+        font-size: 13px;
+    }
+
+    .sarvices p {
+        font-size: 16px;
+    }
+
+    .firm h1 {
+        font-size: 35px;
+    }
+
+    .caret a {
+        font-size: 20px;
+    }
+
+    .caret {
+        padding-top: 75px;
+    }
+
+    .imgclass img {
+        width: 85%;
+    }
+
+    .hex-container {
+        width: 115px;
+    }
+
+    .opening {
+        padding: 60px 0 35px 0;
+    }
+
+    .since p {
+        font-size: 20px;
+    }
+
+    .right .utwisi {
+        font-size: 20px;
+        width: 85%;
+    }
+
+    .right h1 {
+        font-size: 80px;
+    }
+
+    .right {
+        padding: 160px 0 0 0px;
+    }
+
+    .laws h1 {
+        font-size: 50px;
+    }
+
+    .mainfooter a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .left img {
+        padding-left: 50px;
+    }
+
+    .appoiment {
+        padding: 90px 0 0 120px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .right h5 {
+        font-size: 25px;
+    }
+
+    .pensil {
+        padding: 14px 0;
+    }
+
+    .right h1 {
+        font-size: 110px;
+    }
+
+    .appoiment p {
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 25px 0;
+    }
+
+    .right {
+        padding: 240px 0 0 0px;
+    }
+
+    .hex-container {
+        width: 130px;
+    }
+
+    .hexagon {
+        width: 115px;
+        height: 65px;
+    }
+
+    .right .utwisi {
+        font-size: 16px;
+        width: 50%;
+    }
+
+    .sarvices h1 {
+        font-size: 50px;
+    }
+
+    .wheet a {
+        padding: 26px 50px;
+    }
+}
